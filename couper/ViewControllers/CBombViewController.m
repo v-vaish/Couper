@@ -22,6 +22,13 @@
 }
 
 
+-(void)displayEmojiInGame
+{
+    emojiArray = [[NSMutableArray alloc] initWithObjects:@"shield_1.png",@"shield_2.png",@"shield_3.png",@"shield_4.png", nil];
+    
+}
+
+
 -(void)generateEmojis
 {
     float emojiBtnWidth = 50;
@@ -36,16 +43,16 @@
             
             UIButton *emojiBtn = [UIButton buttonWithType:UIButtonTypeCustom];
             emojiBtn.frame = CGRectMake(j*emojiBtnWidth, i*emojiBtnHeight, emojiBtnWidth, emojiBtnHeight);
-            [emojiBtn setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
-            
+            [emojiBtn setBackgroundImage:[UIImage imageNamed:emojiArray[j]] forState:UIControlStateNormal];
+            [emojiBtn setBackgroundColor:[UIColor clearColor]];
         }
     }
 }
 
+
 -(IBAction)selectWeaponAction:(UIButton *)sender
 {
     selectWeaponStr = [NSString stringWithFormat:@"%d",(int)sender.tag];
-    
 }
 
 -(IBAction)confirmBtnAction:(UIButton *)sender

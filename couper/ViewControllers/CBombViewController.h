@@ -11,6 +11,7 @@
 @interface CBombViewController : UIViewController
 {
     NSString *selectWeaponStr;
+    NSMutableArray *emojiArray;
 }
 
 
