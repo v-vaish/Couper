@@ -1,0 +1,2 @@
+PODS_COUPER_NATIVEX_IOS_SDK_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/NativeX-iOS-SDK/NativeXiOSSDK-5.4.10"
+PODS_COUPER_NATIVEX_IOS_SDK_OTHER_LDFLAGS = -l"NativeXSDK" -l"sqlite3.0" -framework "AdSupport" -framework "CoreGraphics" -framework "Foundation" -framework "MediaPlayer" -framework "MessageUI" -framework "StoreKit" -framework "SystemConfiguration" -framework "UIKit"

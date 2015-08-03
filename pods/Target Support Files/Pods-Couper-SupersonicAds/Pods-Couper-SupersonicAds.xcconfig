@@ -1,0 +1,2 @@
+PODS_COUPER_SUPERSONICADS_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/SupersonicAds"
+PODS_COUPER_SUPERSONICADS_OTHER_LDFLAGS = -l"z" -framework "AVFoundation" -framework "AdSupport" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreTelephony" -framework "CoreVideo" -framework "Foundation" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "StoreKit" -framework "Supersonic" -framework "SystemConfiguration"

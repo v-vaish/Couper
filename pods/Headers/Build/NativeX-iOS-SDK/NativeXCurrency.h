@@ -1,0 +1,1 @@
+../../../NativeX-iOS-SDK/NativeXiOSSDK-5.4.10/NativeXSDKHeaders/NativeXCurrency.h

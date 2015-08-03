@@ -1,0 +1,1 @@
+../../../InstagramKit/instagramkit/Models/IKUserInPhoto.h
